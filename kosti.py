@@ -2,8 +2,7 @@ from random import randint
 komp = randint (1,5)
 print "kompp zagadal chislo, vvedi svoe chislo chtoby sravnit :"
 user = int(input("> "))
-print "skolko ballov? (0) "
-bally = int(input("> "))
+bally = 0
 point = abs(komp - user)
 if point == 1:
     print (bally + 5)
