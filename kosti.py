@@ -5,7 +5,7 @@ user = int(input("> "))
 bally = 0
 point = abs(komp - user)
 if point == 1:
-    print (bally + 5)
+    (bally + 5)
 if point == 2:
     (bally + 4)
 if point == 3:
